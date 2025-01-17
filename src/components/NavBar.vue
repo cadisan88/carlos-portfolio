@@ -25,7 +25,7 @@ const windowWidth = ref(false)
 header {
     //border: 1px solid blue;
     //background-color: rgba(0,0,0,0.8);
-    z-index: 99;
+    z-index: 300;
     width: 100%;
     position: fixed;
     transition: .5s ease all;

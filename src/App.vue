@@ -15,7 +15,7 @@ import HomeContent from './components/HomeContent.vue'
 <style scoped>
 .app {
   display: flex;
-  background-color: #181818;
+  background-color: #1B1B1B;
 }
 
 .socialNet {
