@@ -54,20 +54,27 @@
     }
 
     .profileDescriptionContainer {
-        border: solid 1px red;
         width: 100%;
         height: 100%;
         display: flex;
         align-items: flex-end;
-        //background-color: black;
 
         .profileDescriptionWrap {
-            border: solid 1px greenyellow;
+            border: solid 1px red;
             height: 141px;
             width: 100%;
             background-color: #ED84044D;
             z-index: 101;
-            padding-left: calc(15%);
+            padding-left: calc(12%);
+            display: flex;
+            align-items: center;
+
+            h3 {
+                font-family: 'Roboto';
+                font-stretch: condensed;
+                font-size: 26px;
+                font-weight: 400;
+            }
         }
     }
 }
