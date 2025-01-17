@@ -1,14 +1,13 @@
 <script setup>
 import Navigation from './components/NavBar.vue'
-import SocialNet from './components/SocialNet.vue'
+import HomeSection from './components/HomeSection.vue'
 import HomeContent from './components/HomeContent.vue'
 </script>
 
 <template>
   <div class="app">
     <Navigation/>
-    <div class="socialNet"><SocialNet/></div>
-    <div class="homeContent"><HomeContent/></div>
+    <HomeSection/>
   </div>
 </template>
 
