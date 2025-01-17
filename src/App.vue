@@ -1,47 +1,35 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
+import Navigation from './components/NavBar.vue'
+import SocialNet from './components/SocialNet.vue'
+import HomeContent from './components/HomeContent.vue'
 </script>
 
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
-
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
-    </div>
-  </header>
-
-  <main>
-    <TheWelcome />
-  </main>
+  <div class="app">
+    <Navigation/>
+    <div class="socialNet"><SocialNet/></div>
+    <div class="homeContent"><HomeContent/></div>
+  </div>
 </template>
 
 <style scoped>
-header {
-  line-height: 1.5;
+.app {
+  display: flex;
+  background-color: #181818;
 }
 
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
+.socialNet {
+  /*border: 1px solid blue;*/
+  display: inline-flex;
+  width: 10%;
+  height: 650px;
 }
 
-@media (min-width: 1024px) {
-  header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
-  }
-
-  .logo {
-    margin: 0 2rem 0 0;
-  }
-
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
-  }
+.homeContent {
+  border: 1px solid cyan;
+  width: 90%;
+  display: inline-flex;
+  margin-top: 82px;
+  margin-bottom: 0px;
 }
 </style>
