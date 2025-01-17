@@ -30,6 +30,7 @@
         h3 {
             font-family: 'Roboto';
             font-stretch: condensed;
+            color: #F3F9F8;
             font-size: 26px;
             font-weight: 400;
         }

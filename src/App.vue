@@ -9,7 +9,7 @@ import About from './components/About.vue'
   <div class="app">
     <Navigation/>
     <HomeSection/>
-    <About/>
+    <About id="about"/>
   </div>
 </template>
 

@@ -11,7 +11,7 @@ const windowWidth = ref(false)
     <header :class="{ 'scrolled-nav': scrollPosition }">
         <nav>
             <ul class="navigation">
-                <li><router-link class="link" :to="{ name: '' }">About</router-link></li>
+                <li><a class="link" href="#about">About</a></li>
                 <li><router-link class="link" :to="{ name: '' }">Experience</router-link></li>
                 <li><router-link class="link" :to="{ name: '' }">Stack</router-link></li>
                 <li class="li-hero"><router-link class="link-hero" :to="{ name: '' }">Contact</router-link></li>
@@ -41,7 +41,7 @@ nav {
     transition: .5s ease all;
     width: 100%;
     margin: 0 auto;
-    background-color: #181818;
+    background-color: #1B1B1B;
     font-family: 'Roboto';
     font-size: 20px;
     
