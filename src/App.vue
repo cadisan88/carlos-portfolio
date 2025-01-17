@@ -2,19 +2,22 @@
 import Navigation from './components/NavBar.vue'
 import HomeSection from './components/HomeSection.vue'
 import HomeContent from './components/HomeContent.vue'
+import About from './components/About.vue'
 </script>
 
 <template>
   <div class="app">
     <Navigation/>
     <HomeSection/>
+    <About/>
   </div>
 </template>
 
 <style scoped>
 .app {
   display: flex;
-  background-color: #1B1B1B;
+  flex-direction: column;
+  background-color: #181818;
 }
 
 .socialNet {
