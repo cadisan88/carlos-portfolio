@@ -17,7 +17,6 @@ import About from './components/About.vue'
 .app {
   display: flex;
   flex-direction: column;
-  background-color: #181818;
 }
 
 .socialNet {

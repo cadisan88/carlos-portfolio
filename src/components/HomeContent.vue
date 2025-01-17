@@ -40,7 +40,7 @@
 
         position: relative;
         top: calc(100% - 584px);
-        right: 0px;
+        left: calc(33% - 292px);
         bottom: 0px;
 
         background-image: radial-gradient(#3C3C3C 0%, #1B1B1B 70%);
@@ -50,7 +50,6 @@
             display: flex;
             position: relative;
             bottom: -131px;
-            left: 33%;
             width: calc(435px * 1);
             height: calc(580px * 1);
             z-index: 110;
