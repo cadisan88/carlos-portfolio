@@ -1,6 +1,6 @@
 <script setup>
 import Navigation from './components/NavBar.vue'
-import SocialNet from './components/SocialNet.vue'
+import HomeSection from './components/HomeSection.vue'
 import HomeContent from './components/HomeContent.vue'
 import About from './components/About.vue'
 </script>
@@ -8,8 +8,7 @@ import About from './components/About.vue'
 <template>
   <div class="app">
     <Navigation/>
-    <div class="socialNet"><SocialNet/></div>
-    <div class="homeContent"><HomeContent/></div>
+    <HomeSection/>
     <About/>
   </div>
 </template>
@@ -18,7 +17,6 @@ import About from './components/About.vue'
 .app {
   display: flex;
   flex-direction: column;
-  background-color: #181818;
 }
 
 .socialNet {
