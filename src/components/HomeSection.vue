@@ -21,7 +21,6 @@ import HomeDescription from './HomeDescription.vue'
   margin-top: 82px;
 
   .home-top {
-    border: solid 1px red;
     display: flex;
     width: 100%;
   }

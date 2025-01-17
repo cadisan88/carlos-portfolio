@@ -55,7 +55,6 @@
         align-items: center;
 
         ul {
-            // border: 1px solid red;
             list-style: none;
             text-decoration: none;
             display: flex;
@@ -66,7 +65,6 @@
         }
 
         li {
-            // border: 1px solid purple;
             display: block;
             padding: 4px;
             margin: 0 0 0 0;
