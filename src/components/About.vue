@@ -3,7 +3,7 @@ import { ref } from 'vue'
 import Statistic from './AboutStatistic.vue'
 
 const statistics = ref([
-  { id:1, number:'+9', label: 'years of experience as software dev ' },
+  { id:1, number:'+9', label: 'years of experience as software dev' },
   { id:2, number: '2', label: 'fluent languages. English and Spanish' },
   { id:3, number: '+10', label: 'technologies in my stack' },
   { id:4, number: '+15', label: 'projects designed, developed and deployed' }
@@ -11,20 +11,20 @@ const statistics = ref([
 </script>
 
 <template>
-<div class="about-container">
-    <div class="statistic-container">
-        <Statistic class="statistic"
-            v-for="statistic in statistics"
-            :key="statistic.id"
-            :number="statistic.number"
-            :label="statistic.label"
-        ></Statistic>
+    <div class="about-container">
+        <div class="statistic-container">
+            <Statistic class="statistic"
+                v-for="statistic in statistics"
+                :key="statistic.id"
+                :number="statistic.number"
+                :label="statistic.label"
+            ></Statistic>
+        </div>
+        <div class="intro-container">
+            <h1>Hi! I'm Carlos,</h1>
+            <h2>a Colombian software developer focused on back-end, based in Cambridge, Ontario.</h2>
+        </div>
     </div>
-    <div class="intro-container">
-        <h1>Hi! I'm Carlos,</h1>
-        <h2>a Colombian software developer focused on back-end, based in Cambridge, Ontario. </h2>
-    </div>
-</div>
 </template>
 
 <style>
@@ -74,6 +74,4 @@ const statistics = ref([
         width: 60%;
     }
 }
-
-
 </style>
