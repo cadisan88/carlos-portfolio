@@ -29,25 +29,19 @@
 
 <style lang="scss" scoped>
 
-.social-networks {
-  display: inline-flex;
-  width: 10%;
-  height: 650px;
-}
-
 .social-networks-wrap {
     width: 10%;
     min-width: 32px;
     display: block;
     flex-wrap: wrap;
     flex-direction: row;
-    z-index: 100;
+    z-index: 999;
+    transform: translateY(-82px);
 
     .social-networks-vertical-line {
         border-right: 1px solid #F3F9F8;
         width: 50%;
-        height: 365px;
-        z-index: 999;
+        height: 300px;
     }
 
     .social-networks-links {
