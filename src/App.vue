@@ -3,6 +3,8 @@ import Navigation from './components/NavBar.vue'
 import HomeSection from './components/HomeSection.vue'
 import HomeContent from './components/HomeContent.vue'
 import About from './components/About.vue'
+import Stack from './components/Stack.vue'
+
 </script>
 
 <template>
@@ -10,6 +12,7 @@ import About from './components/About.vue'
     <Navigation/>
     <HomeSection/>
     <About id="about"/>
+    <Stack id="stack"/>
   </div>
 </template>
 
