@@ -3,7 +3,7 @@ import Navigation from './components/NavBar.vue'
 import HomeSection from './components/HomeSection.vue'
 import AboutSection from './components/AboutSection.vue'
 import ExperienceSection from './components/ExperienceSection.vue'
-import Stack from './components/Stack.vue'
+import StackSection from './components/StackSection.vue'
 
 </script>
 
@@ -13,7 +13,7 @@ import Stack from './components/Stack.vue'
     <HomeSection/>
     <AboutSection id="about"/>
     <ExperienceSection id="experience"/>
-    <Stack id="stack"/>
+    <StackSection id="stack"/>
   </div>
 </template>
 
