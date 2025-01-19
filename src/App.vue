@@ -1,15 +1,16 @@
 <script setup>
 import Navigation from './components/NavBar.vue'
 import HomeSection from './components/HomeSection.vue'
-import HomeContent from './components/HomeContent.vue'
-import About from './components/About.vue'
+import AboutSection from './components/AboutSection.vue'
+import ExperienceSection from './components/ExperienceSection.vue'
 </script>
 
 <template>
   <div class="app">
     <Navigation/>
     <HomeSection/>
-    <About id="about"/>
+    <AboutSection id="about"/>
+    <ExperienceSection id="experience"/>
   </div>
 </template>
 
@@ -20,7 +21,6 @@ import About from './components/About.vue'
 }
 
 .socialNet {
-  /*border: 1px solid blue;*/
   display: inline-flex;
   width: 10%;
   height: 650px;
