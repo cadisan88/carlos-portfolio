@@ -23,8 +23,6 @@ const windowWidth = ref(false)
 <style lang="scss" scoped>
 
 header {
-    //border: 1px solid blue;
-    //background-color: rgba(0,0,0,0.8);
     z-index: 300;
     width: 100%;
     position: fixed;
@@ -34,7 +32,6 @@ header {
 }
 
 nav {
-    //border: 1px solid greenyellow;
     display: flex;
     flex-direction: row-reverse;
     padding: 0px 24px;
@@ -47,7 +44,6 @@ nav {
     
     ul,
     .link {
-        //border: 1px solid red;
         font-weight: 500;
         color: #F3F9F8;
         list-style: none;
@@ -55,7 +51,6 @@ nav {
     }
 
     li {
-        //text-transform: uppercase;
         display: inline-block;
         padding: 0px 50px;
         margin-left: 0px;

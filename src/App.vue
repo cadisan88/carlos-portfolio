@@ -21,7 +21,6 @@ import ExperienceSection from './components/ExperienceSection.vue'
 }
 
 .socialNet {
-  /*border: 1px solid blue;*/
   display: inline-flex;
   width: 10%;
   height: 650px;
