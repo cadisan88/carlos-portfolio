@@ -16,7 +16,7 @@ const experiences = ref([
 
 <template>
   <div class="experience-container">
-    <h2>I’m proud to have worked at some wonderful companies</h2>
+    <h2>I'm proud to have worked at some wonderful companies</h2>
     <div class="experiences">
       <JobExperience
         v-for="experience in experiences"

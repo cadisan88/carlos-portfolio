@@ -3,6 +3,8 @@ import Navigation from './components/NavBar.vue'
 import HomeSection from './components/HomeSection.vue'
 import AboutSection from './components/AboutSection.vue'
 import ExperienceSection from './components/ExperienceSection.vue'
+import StackSection from './components/StackSection.vue'
+
 </script>
 
 <template>
@@ -11,6 +13,7 @@ import ExperienceSection from './components/ExperienceSection.vue'
     <HomeSection/>
     <AboutSection id="about"/>
     <ExperienceSection id="experience"/>
+    <StackSection id="stack"/>
   </div>
 </template>
 
@@ -18,19 +21,5 @@ import ExperienceSection from './components/ExperienceSection.vue'
 .app {
   display: flex;
   flex-direction: column;
-}
-
-.socialNet {
-  display: inline-flex;
-  width: 10%;
-  height: 650px;
-}
-
-.homeContent {
-  border: 1px solid cyan;
-  width: 90%;
-  display: inline-flex;
-  margin-top: 82px;
-  margin-bottom: 0px;
 }
 </style>

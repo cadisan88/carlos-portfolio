@@ -69,7 +69,6 @@
 
                 img {
                     width: 30px;
-                    transition: 0.2s ease all;
                 }
             }
         }

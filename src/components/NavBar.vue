@@ -13,7 +13,7 @@ const windowWidth = ref(false)
             <ul class="navigation">
                 <li><a class="link" href="#about">About</a></li>
                 <li><a class="link" href="#experience">Experience</a></li>
-                <li><router-link class="link" :to="{ name: '' }">Stack</router-link></li>
+                <li><a class="link" href="#stack">Stack</a></li>
                 <li class="li-hero"><router-link class="link-hero" :to="{ name: '' }">Contact</router-link></li>
             </ul>
         </nav>
