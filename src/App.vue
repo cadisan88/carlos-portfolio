@@ -3,6 +3,8 @@ import Navigation from './components/NavBar.vue'
 import HomeSection from './components/HomeSection.vue'
 import AboutSection from './components/AboutSection.vue'
 import ExperienceSection from './components/ExperienceSection.vue'
+import StackSection from './components/StackSection.vue'
+
 </script>
 
 <template>
@@ -11,6 +13,9 @@ import ExperienceSection from './components/ExperienceSection.vue'
     <HomeSection id="home"/>
     <AboutSection id="about"/>
     <ExperienceSection id="experience"/>
+    <StackSection id="stack"/>
+
+
     <a href="#home" id="scroll-to-top-btn">
       <span>↑</span>
     </a>
