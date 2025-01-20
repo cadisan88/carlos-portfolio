@@ -7,27 +7,33 @@ const stackLevels = ref([
     id:1,
     stackLevel:'Expert',
     technologies:[
-        {techName: 'PHP', techIma: 'php.png'},
-        {techName: 'MySQL', techIma: 'mysql.png'},
-        {techName: 'MySQL', techIma: 'mysql.png' }
+        {techName: 'PHP', techIma: 'php.svg'},
+        {techName: 'MySQL', techIma: 'mysql.svg'},
+        {techName: 'Laravel', techIma: 'laravel.png'},
+        {techName: 'Git', techIma: 'git.png'},
+        {techName: 'Scrum', techIma: 'scrum.png'}
     ]
   },
   {
     id:1,
     stackLevel:'Intermediate',
     technologies:[
-        {techName: 'PHP', techIma: 'php.png'},
-        {techName: 'MySQL', techIma: 'mysql.png'},
-        {techName: 'MySQL', techIma: 'mysql.png' }
+        {techName: 'Java', techIma: 'java.png'},
+        {techName: 'RabbitMQ', techIma: 'rabbitmq.png'},
+        {techName: 'DataDog', techIma: 'datadog.png'},
+        {techName: 'PostgreSQL', techIma: 'postgresql.png'},
+        {techName: 'Mockoon', techIma: 'mockoon.png'}
     ]
   },
   {
     id:1,
     stackLevel:'Learning',
     technologies:[
-        {techName: 'PHP', techIma: 'php.png'},
-        {techName: 'MySQL', techIma: 'mysql.png'},
-        {techName: 'MySQL', techIma: 'mysql.png' }
+        {techName: 'JavaScript', techIma: 'javascript.png'},
+        {techName: 'Vue.js', techIma: 'vue.js.png'},
+        {techName: 'Node.js', techIma: 'node.js.png'},
+        {techName: 'CSS', techIma: 'css.png'},
+        {techName: 'Drupal', techIma: 'drupal.png' }
     ]
   },
 ])
@@ -81,7 +87,7 @@ const stackLevels = ref([
     height: auto;
     min-height: calc(100vh - 82px);
     padding-left: 30px;
-    padding-right: 30px;
+    padding-right: calc(3vw + 30px);
     display: flex;
     flex-direction: column;
     justify-content: space-around;

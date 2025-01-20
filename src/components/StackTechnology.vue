@@ -5,7 +5,7 @@ const props = defineProps({
 })
 
 function getImageUrl() {
-  return new URL(`../assets/${props.techImage}`, import.meta.url)
+  return new URL(`../assets/tech-stack/${props.techImage}`, import.meta.url)
 }
 </script>
 
