@@ -14,7 +14,6 @@ defineProps(['number','label'])
     display: flex;
     flex-direction: row;
     background-color: #1B1B1B;
-    border: 1px #1E1E1E solid;
     box-shadow: 4px 4px #000000 25%;
     height: 289px;
     justify-content: center;
