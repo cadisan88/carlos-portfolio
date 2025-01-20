@@ -69,8 +69,13 @@
 
                 img {
                     width: 30px;
+                    border-radius: 100%;
                 }
             }
+            img:hover {
+                box-shadow: 1px 1px 10px #F3F9F8;
+            }
+            
         }
     }
 }
