@@ -22,18 +22,4 @@ import StackSection from './components/StackSection.vue'
   display: flex;
   flex-direction: column;
 }
-
-.socialNet {
-  display: inline-flex;
-  width: 10%;
-  height: 650px;
-}
-
-.homeContent {
-  border: 1px solid cyan;
-  width: 90%;
-  display: inline-flex;
-  margin-top: 82px;
-  margin-bottom: 0px;
-}
 </style>

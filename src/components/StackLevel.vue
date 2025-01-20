@@ -24,6 +24,7 @@ const props = defineProps({
 
 <style>
 .stack-level-container{
+    min-width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -35,14 +36,12 @@ const props = defineProps({
         font-size: 26px;
         color: #F3F9F8;
         align-self: center;
-        padding-top: 120px;
     }
-}
 
-.stack-level-tech{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    .stack-level-tech{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+    }
 }
 </style>
