@@ -1,10 +1,16 @@
-<script>
+<script setup>
+import { defineProps, ref } from 'vue';
+const props = defineProps({
+  linePosition: String
+})
 
+const top = ref('top')
+const bottom = ref('bottom')
 </script>
 
 <template>
     <div class="social-networks-wrap">
-        <div class="social-networks-vertical-line"></div>
+        <div class="social-networks-vertical-line" v-if="linePosition == top"></div>
         <div class="social-networks-links">
             <ul>
                 <li>
@@ -24,6 +30,7 @@
                 </li>
             </ul>
         </div>
+        <div class="social-networks-vertical-line" v-if="linePosition == bottom"></div>
     </div>
 </template>
 

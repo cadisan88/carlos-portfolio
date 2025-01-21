@@ -1,3 +1,10 @@
+<script setup>
+import { ref } from 'vue'
+import SocialNetworks from './SocialNetworks.vue'
+
+const linePosition = ref('bottom')
+</script>
+
 <script>
 import axios from "axios";
 
@@ -55,6 +62,7 @@ async function sendInfo(object) {
                 </div>
             </form>
         </div>
+        <SocialNetworks :line-position="linePosition"/>
     </div>
 </template>
 
@@ -70,12 +78,14 @@ async function sendInfo(object) {
     padding-right: 200px;
     align-items: center;
     justify-content: center;
+    border-bottom: 10px solid #F3F9F8;
 
     h1 {
         font-family: 'Roboto';
         font-weight: 400;
         font-size: 70px;
         text-align: center;
+        color: #F3F9F8;
     }
 
     .form-container {
