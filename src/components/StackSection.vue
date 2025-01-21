@@ -55,7 +55,7 @@ const stackLevels = ref([
     </div>
 </template>
 
-<style>
+<style lang="scss" scoped>
 .stack-container{
     height: auto;
     min-height: calc(100vh - 82px);
@@ -64,33 +64,32 @@ const stackLevels = ref([
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
-
-}
-
-.stack-description{
-    padding: 100px;
-    width: 35%;
-    min-width: 300px;
-
-    p{
-        font-family: 'Roboto';
-        font-weight: 200;
-        font-size: 25px;
-        color: #F3F9F8;
-        text-align: center;
+    
+    .stack-description{
+        padding: 100px;
+        width: 35%;
+        min-width: 300px;
+    
+        p{
+            font-family: 'Roboto';
+            font-weight: 200;
+            font-size: 25px;
+            color: #F3F9F8;
+            text-align: center;
+        }
     }
-}
-
-.stack-content {
-    width: 65%;
-    min-width: 340px;
-    height: auto;
-    min-height: calc(100vh - 82px);
-    padding-left: 30px;
-    padding-right: calc(3vw + 30px);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    
+    .stack-content {
+        width: 65%;
+        min-width: 340px;
+        height: auto;
+        min-height: calc(100vh - 82px);
+        padding-left: 30px;
+        padding-right: calc(3vw + 30px);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
 }
 
 </style>

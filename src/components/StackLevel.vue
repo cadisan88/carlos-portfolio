@@ -22,7 +22,7 @@ const props = defineProps({
     </div>
 </template>
 
-<style>
+<style lang="scss" scoped>
 .stack-level-container{
     min-width: 100%;
     display: flex;
