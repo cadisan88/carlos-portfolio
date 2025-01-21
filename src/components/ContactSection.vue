@@ -142,6 +142,13 @@ async function sendInfo(object) {
             height: 60px;
             width: 179px;
             justify-self: center;
+            transition: 0.5s ease-in all;
+
+            &:hover {
+                color: #1B1B1B;
+                text-decoration-line: underline;
+                border-color: #F3F9F8;
+            }
         }
     }
 }
