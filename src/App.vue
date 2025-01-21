@@ -4,6 +4,7 @@ import HomeSection from './components/HomeSection.vue'
 import AboutSection from './components/AboutSection.vue'
 import ExperienceSection from './components/ExperienceSection.vue'
 import StackSection from './components/StackSection.vue'
+import ContactSection from './components/ContactSection.vue'
 
 </script>
 
@@ -14,6 +15,7 @@ import StackSection from './components/StackSection.vue'
     <AboutSection id="about"/>
     <ExperienceSection id="experience"/>
     <StackSection id="stack"/>
+    <ContactSection id="contact"/>
 
 
     <a href="#home" id="scroll-to-top-btn">

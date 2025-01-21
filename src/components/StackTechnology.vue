@@ -16,7 +16,7 @@ function getImageUrl() {
     </div>
 </template>
 
-<style>
+<style lang="scss" scoped>
 .tecnology-container{
     width: 120px;
     height: 120px;

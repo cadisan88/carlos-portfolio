@@ -14,7 +14,7 @@ const windowWidth = ref(false)
                 <li><a class="link" href="#about">About</a></li>
                 <li><a class="link" href="#experience">Experience</a></li>
                 <li><a class="link" href="#stack">Stack</a></li>
-                <li class="li-hero"><router-link class="link-hero" :to="{ name: '' }">Contact</router-link></li>
+                <li class="li-hero"><a class="link-hero" href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -43,7 +43,8 @@ nav {
     font-size: 20px;
     
     ul,
-    .link {
+    .link,
+    .link-hero {
         font-weight: 500;
         color: #F3F9F8;
         list-style: none;

@@ -55,7 +55,7 @@ const stackLevels = ref([
     </div>
 </template>
 
-<style>
+<style lang="scss" scoped>
 .stack-container{
     height: auto;
     min-height: calc(100vh - 82px);
