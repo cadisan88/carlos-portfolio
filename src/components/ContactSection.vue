@@ -62,6 +62,8 @@ async function sendInfo(object) {
                 </div>
             </form>
         </div>
+    </div>
+    <div class="social-networks-container">
         <SocialNetworks :line-position="linePosition"/>
     </div>
 </template>
@@ -142,5 +144,11 @@ async function sendInfo(object) {
             justify-self: center;
         }
     }
+}
+
+.social-networks-container {
+    width: 100%;
+    height: 1px;
+    transform: translateY(-364px);
 }
 </style>
